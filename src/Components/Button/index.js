@@ -1,6 +1,7 @@
+import { ButtonContainer } from "./styles"
 
-export default function Button({title}) {
+export default function Button({label, onClick}) {
   return (
-    <button>{title}</button>
+    <ButtonContainer onClick={onClick}>{label}</ButtonContainer>
   )
 }
