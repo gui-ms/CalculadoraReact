@@ -11,4 +11,9 @@ export const ButtonContainer = styled.button`
     font-weight: 700;
     
     font-family: 'Roboto';
+
+    &:hover {
+        opacity: 0.6;
+        cursor: pointer;
+        }
         `
